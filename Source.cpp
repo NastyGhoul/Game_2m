@@ -7,18 +7,18 @@
 
 using namespace std;
 #include "Config.h"
-#include "Graphic.h"
+#include "Map.h"
 #include "Logic.h"
 #include "Input.h"
 
 
 int main()
 {
-	Setup();
+	setup();
 	while (!gameOver)
 	{
-		//Draw();
-		Input();
+		graphic();
+		input();
 		cout << endl;
 	}
 	return 0;

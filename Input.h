@@ -1,7 +1,7 @@
 int Xp = PLAYERX;
 int Yp = PLAYERY;
 
-void Input()
+void input()
 {
 	//wykrywa czy gracz wciska klawisz
 	if (_kbhit())
