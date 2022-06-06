@@ -1,24 +1,27 @@
-#include <SFML/Graphics.hpp>
+#include <iostream>
+#include <windows.h>
+#include <string>
+#include <array>
+#include <string.h>
+#include <conio.h>
+
+using namespace std;
+#include "Graphic.h"
+#include "Logic.h"
+#include "Input.h"
+#include "Config.h"
+
 
 int main()
 {
-    sf::RenderWindow window(sf::VideoMode(200, 200), "SFML works!");
-    sf::CircleShape shape(100.f);
-    shape.setFillColor(sf::Color::Green);
-
-    while (window.isOpen())
-    {
-        sf::Event event;
-        while (window.pollEvent(event))
-        {
-            if (event.type == sf::Event::Closed)
-                window.close();
-        }
-
-        window.clear();
-        window.draw(shape);
-        window.display();
-    }
-
-    return 0;
+	//
+	Setup();
+	while (!gameOver)
+	{
+		Draw();
+		//	Input(s);
+			//Logic();
+		cout << endl;
+	}
+	return 0;
 }
