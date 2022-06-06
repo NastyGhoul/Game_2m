@@ -6,21 +6,19 @@
 #include <conio.h>
 
 using namespace std;
+#include "Config.h"
 #include "Graphic.h"
 #include "Logic.h"
 #include "Input.h"
-#include "Config.h"
 
 
 int main()
 {
-	//
 	Setup();
 	while (!gameOver)
 	{
-		Draw();
-		//	Input(s);
-			//Logic();
+		//Draw();
+		Input();
 		cout << endl;
 	}
 	return 0;
