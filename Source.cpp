@@ -14,7 +14,7 @@ int main()
     float P_x = PLAYER_X;
     float P_y = PLAYER_Y;
     float W_x = WINDOW_X / 100;
-    float W_y = WINDOW_X / 2;
+    float W_y = WINDOW_Y / 2;
     Player player(P_x, P_y);
     Wall wall(W_x, W_y);
 
