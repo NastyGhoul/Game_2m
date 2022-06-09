@@ -24,3 +24,6 @@ void Wall::draw(RenderTarget& target, RenderStates state) const
 {
 	target.draw(this->wallShape, state);
 }
+
+
+

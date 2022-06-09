@@ -78,14 +78,14 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <LibraryPath>C:\Users\milos\OneDrive\Desktop\Game_final\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\visual studio\Vatelia\ostatni folder cholernej fgry\NastyGhoul\Game_2m\include\SFML;D:\visual studio\Vatelia\ostatni folder cholernej fgry\NastyGhoul\Game_2m\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\visual studio\Vatelia\ostatni folder cholernej fgry\NastyGhoul\Game_2m\lib;$(LibraryPath)</LibraryPath>
     <ExternalIncludePath>C:\Users\milos\OneDrive\Desktop\Game_2m\include;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
-    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);</IncludePath>
-    <LibraryPath>C:\Users\milos\OneDrive\Desktop\Game_final\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\visual studio\Vatelia\ostatni folder cholernej fgry\NastyGhoul\Game_2m\include\SFML;D:\visual studio\Vatelia\ostatni folder cholernej fgry\NastyGhoul\Game_2m\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\visual studio\Vatelia\ostatni folder cholernej fgry\NastyGhoul\Game_2m\lib;$(LibraryPath)</LibraryPath>
     <ExternalIncludePath>C:\Users\milos\OneDrive\Desktop\Game_2m\include;$(ExternalIncludePath)</ExternalIncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -158,6 +158,7 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Block.h" />
     <ClInclude Include="Config.h" />
     <ClInclude Include="PlayerClass.h" />
     <ClInclude Include="Setup.h" />
